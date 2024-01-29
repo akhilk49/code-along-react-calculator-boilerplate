@@ -62,12 +62,13 @@ Button{
 
 }
 #equalto{
-    position: absolute;
+    /* position: absolute;
     top: 87.5%;
-    left: 50%;    
+    left: 50%;     */
     text-align: center;
     width: 10.40vw;
     height: 10vh;
+    grid-column: 3 / 5;
     margin: 2px;
     border-radius: 8px;
     background-color: #1a1a1a;
