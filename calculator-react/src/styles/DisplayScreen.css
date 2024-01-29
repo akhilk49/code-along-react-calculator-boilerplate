@@ -1,0 +1,75 @@
+.parent-most {
+    position: absolute;
+    /* left: 40%; */
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #4b51aa; 
+    color: rgb(255, 255, 255); 
+  }
+  
+  .parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+    margin-top: 5vh;
+  }
+  
+  input{
+    width: 100%;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    text-align: right;
+    background-color: #02010f; 
+    color: white;
+   
+  }
+  
+.btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: none;
+}
+  
+Button{
+    height: 10vh;
+    width: 5vw;
+    margin: 2px;
+  }
+#in{
+  position: relative;
+  top: 58.9px;
+  width: 242px;
+}
+#int{
+  position: relative;
+  top:70px;
+  width: 242px;
+
+}
+#cal{
+  color:black;
+
+}
+#equalto{
+    position: absolute;
+    top: 87.5%;
+    left: 50%;    
+    text-align: center;
+    width: 10.40vw;
+    height: 10vh;
+    margin: 2px;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+}
+
